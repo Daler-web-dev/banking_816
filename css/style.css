@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c4c4c4
+}
+
+header .left,
+header .right {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+header .left .round,
+header .right .round {
+    width: 25px;
+    height: 25px;
+    background-color: gray
+}
+
+header .left .round:hover,
+header .right .round:hover {
+    background-color: #ff0
+}
