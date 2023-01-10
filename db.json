@@ -13,12 +13,15 @@
       "surname": "ANONIMUS",
       "password": "1554",
       "id": 2
+    },
+    {
+      "email": "sattorov.furkat88@gmail.com",
+      "name": "Furkat",
+      "surname": "Sattorov",
+      "password": "123",
+      "id": 3
     }
   ],
-  "cards": [
-   
-  ],
-  "transactions": [
-   
-  ]
+  "cards": [],
+  "transactions": []
 }
