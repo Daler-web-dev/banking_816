@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.info{
+    padding: 50px 40px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 733px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 20px;
+}
+
+.email {
+    /* margin-top: 20px; */
+    width: 204px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.Card_main {
+    width: 200px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 74px 0px 0px ;
+}
+
+.card_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block_cart {
+    width: 282px;
+    height: 160px;
+    margin-top: 30px;
+    background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+    border-radius: 15px;
+    color: white;    
+    padding: 20px;
+}
+.block_cart:nth-child(2) {background: linear-gradient(84.37deg, #5F0A87 2.27%, #A4508B 92.26%);}
+.block_cart:nth-child(3) {background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);}
+.block_cart:nth-child(4) {background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);}
+
+.all_card {
+    width: 300px;
+    height: 20px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    display: block;
+    margin-top: 20px ;
+    color: #003cff;
+}
+
+.valuta {
+    display: block;
+    margin-top: 70px !important;
+}
+
+
+.block_transactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    margin-top: 74px;
+    width: 266px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.tra  {
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    color: #B9C0D1;;
+}
+
+.atciya {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.line {
+    position: relative;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #B9C0D1;
+}
+
+.all_transactions {
+    width: 200px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    display: block;
+    margin-top: 20px ;
+    color: #003cff;
+}
