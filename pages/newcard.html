@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
 
-  <body>
-    <div class="body">
-      <form name="addcard">
-        <h2>Добавить кошелек</h2>
-        <input name="card_name" type="text" placeholder="name" />
-        <input name="currency" type="text" placeholder="currency" />
-        <input name="balance" type="number" placeholder="balance" />
-        <div class="apply">Добавить</div>
-        <a href="./cards.html">
-          <div class="apply1">Назад</div>
-        </a>
-      </form>
-    </div>
-    <script src="../modules/cards.js"></script>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+	<div class="body">
+		<form name="addcard">
+			<h2 class="h2">Добавить кошелек</h2>
+			<input name="card_name" type="text" placeholder="name" />
+			<input name="currency" type="text" placeholder="currency" />
+			<input name="balance" type="number" placeholder="balance" />
+			<button class="apply">Добавить</button>
+			<a href="./cards.html">
+				<div class="apply1">Назад</div>
+			</a>
+		</form>
+	</div>
+	<script src="../modules/createCard.js"></script>
+</body>
+
 </html>

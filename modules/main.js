@@ -1,9 +1,10 @@
-// let localed = JSON.parse(localStorage.getItem('user'))
+let {name, email,surname} = JSON.parse(localStorage.getItem('user'))
 
-// let h1 = document.querySelector('h1')
-// let email = document.querySelector('.email')
+console.log(name, email);
 
-// h1.innerHTML = ''
-// email.innerHTML = ''
-// h1.innerHTML = 'Добро Пожаловать' + localed.name + localed.surname
-// email.innerHTML = localed.email
+let h1 = document.querySelector('h1')
+let emailEl = document.querySelector('.email')
+
+
+h1.innerHTML = 'Добро Пожаловать ' + name + " " + surname
+emailEl.innerHTML = email

@@ -22,6 +22,28 @@
       "id": 3
     }
   ],
-  "cards": [],
+  "cards": [
+    {
+      "user_id": 1,
+      "card_name": "HUMO",
+      "currency": "USD",
+      "balance": "2000",
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "card_name": "HUMO",
+      "currency": "RUB",
+      "balance": "15000",
+      "id": 2
+    },
+    {
+      "user_id": 2,
+      "card_name": "VISA",
+      "currency": "USD",
+      "balance": "15000",
+      "id": 3
+    }
+  ],
   "transactions": []
 }
