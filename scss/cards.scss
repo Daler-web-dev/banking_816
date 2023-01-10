@@ -1,0 +1,161 @@
+.hello {
+    height: 90px;
+    width: 330px;
+    margin-top: 123px;
+    margin-left: 263px;
+}
+
+h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+
+}
+
+
+h3 {
+    margin-top: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.cards {
+    height: 339px;
+    width: 80%;
+    margin: auto;
+    margin-left: 264px;
+    margin-top: 53px;
+
+}
+
+.btn {
+    width: 438px;
+    height: 56px;
+    margin-top: 44px;
+    margin-left: 264px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: brown;
+    transition: .5s;
+}
+
+a {
+    color: white;
+}
+
+.card1 {
+    width: 282px;
+    height: 160px;
+    background: linear-gradient(#D7816A, #BD4F6C);
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+span {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.apply {
+    width: 438px;
+    height: 56px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    translate: -50% -50%;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+form>input {
+    margin: 5px;
+    border: 1px solid black;
+    height: 56px;
+    width: 438px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgba(50, 50, 5, 0.5);
+
+}
+
+.apply {
+    width: 438px;
+    height: 56px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline blue;
+}
+
+.apply:hover {
+    background-color: red;
+    transition: .6s;
+    text-decoration: underline red;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    margin-left: 40px;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(http://www.avtosreda.ru/info/uploads/articles/2021/12/27/card-i-depozit.jpg); */
+    background-repeat: no-repeat;
+    background: url(http://www.avtosreda.ru/info/uploads/articles/2021/12/27/card-i-depozit.jpg) no-repeat content-box;
+    background-size: cover;
+}
+
+.card1 {
+    margin: 10px;
+}
+
+.apply1 {
+    width: 438px;
+    height: 56px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline blue;
+    padding: 10px 180px;
+    margin-top: 10px;
+}
+
+.apply1:hover {
+    background-color: red;
+    transition: .6s;
+    text-decoration: underline
+}
