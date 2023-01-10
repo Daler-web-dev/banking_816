@@ -1,4 +1,4 @@
-let allInps = document.querySelectorAll('input')``
+let allInps = document.querySelectorAll('input')
 let login_form = document.forms.login
 
 
