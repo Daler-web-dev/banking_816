@@ -43,6 +43,13 @@
       "currency": "USD",
       "balance": "15000",
       "id": 3
+    },
+    {
+      "user_id": 1,
+      "card_name": "HUMO",
+      "currency": "UZS",
+      "balance": "1000",
+      "id": 4
     }
   ],
   "transactions": []
