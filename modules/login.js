@@ -1,4 +1,35 @@
+let allInps = document.querySelectorAll('input')``
 let login_form = document.forms.login
+
+
+let pattern = {
+  
+  email: /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i,
+  password: /^[A-Za-z]\w{0,9}$/,
+   
+}
+
+
+
+
+function validate(regex, field) {
+  if(regex.test(field.value)) {
+      field.parentElement.classList.remove('invalid')
+      b.innerHTML = ''
+      field.parentElement.classList.add('valid')
+  } else {
+      field.parentElement.classList.remove('valid')
+      field.parentElement.classList.add('invalid')
+  }
+}
+
+allInps.forEach(inp => {
+  inp.onkeyup = () => {
+
+      validate(pattern[inp.name], inp)
+  }
+})
+
 
 
 login_form.onsubmit = (e) => {
