@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.newTra {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input {
+    display: flex;
+    margin-top: 5px;
+    height: 50px;
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+button {
+    margin-top: 5px;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid transparent;
+    background: #0047FF;
+    color: #FFFFFF;
+}

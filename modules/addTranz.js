@@ -1,0 +1,1 @@
+export let form = document.forms.newTranzactions

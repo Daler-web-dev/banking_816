@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.info{
+    padding: 50px 40px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tr {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 59px;
+    padding-bottom: 50px;
+}
+
+.email {
+    width: 204px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.block_transactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tra  {
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    color: #B9C0D1;;
+}
+
+.atciya {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.line {
+    position: relative;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #B9C0D1;
+}
+
+.add_transactions {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    margin-top: 20px ;
+    color: white; 
+    background-color: #003cff;
+    border-radius: 10px;
+    border: none;
+}
